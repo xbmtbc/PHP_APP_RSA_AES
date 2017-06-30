@@ -1,13 +1,8 @@
-# PHP_APP_RSA_AES
-PHP和客户端分别用RSA交换aes key，并实现加密解密过程
-
 共有七个文件
 其中包括三个类文件
- 1. `lib_aes.php` aes对称加密解密类
- 
- 2. `server_rsa_crypt.php` 服务端RSA公钥私钥非对称加密解密类
- 
- 3. `client_rsa_crypt.php` 客户端RSA公钥私钥非对称加密解密类
+1. `lib_aes.php` aes对称加密解密类
+2. `server_rsa_crypt.php` 服务端RSA公钥私钥非对称加密解密类
+3. `client_rsa_crypt.php` 客户端RSA公钥私钥非对称加密解密类
 
 四个过程文件,其中文件中有注释和exapmle数据
 
@@ -20,5 +15,4 @@ PHP和客户端分别用RSA交换aes key，并实现加密解密过程
 - 第四步：客户端解密服务端数据（先解密，..加密）-`client_decrypt_server.php`
 
 And So on...
-
 
